@@ -41,4 +41,5 @@ public class HomeworkLocators {
     // Some restricted site - just to play with commits
     private final By SEARCH_INPUT_NEW = By.xpath(".//input[@name='descriptionfilter']");
     private final By DOTW_HEROBLOCK_BTN_NEW = By.xpath("(.//div[@id='cms-home-placement-2']//a[@href='/yeezy'])[2]");
+    private final By EE_DELFI_LINK = By.xpath("(.//li/a[@href='https://rus.delfi.lt'])[2]");
 }
