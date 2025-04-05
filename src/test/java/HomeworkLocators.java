@@ -37,4 +37,7 @@ public class HomeworkLocators {
     private final By SHOP_CHRISTMAS_HEROBLOCK_ITEM = By.xpath("(.//div[@id='cms-home-placement-2']//a[@href='/christmas'])[1]");
     private final By DOTW_HEROBLOCK_BTN = By.xpath("(.//div[@id='cms-home-placement-2']//a[@href='/yeezy'])[2]");
     private final By GBB_SECTION_TITLE = By.xpath(".//section[@id='section-1-gifts-by-brands']//h2");
+
+    // Some restricted site - just to play with commits
+    private final By SEARCH_INPUT_NEW = By.xpath(".//input[@name='descriptionfilter']");
 }
