@@ -9,7 +9,8 @@ public class HomeworkLocators {
     private final By CART_BTN = By.xpath(".//div[@class='cart-block']/a");
     private final By MAIN_MENU_ICON = By.xpath(".//a[@class='main-menu__handle']/i");
     // Sports and Fitness icon INCORRECT!!!
-    private final By SPORTS_AND_LEISURE_LISTITEM_ICON = By.xpath(".//ul[@class='submenu-lvl1__list']/li[11]/a/svg[@class='submenu-lvl1__list-icon icon-svg']");
+//    private final By SPORTS_AND_LEISURE_LISTITEM_ICON = By.xpath(".//ul[@class='submenu-lvl1__list']/li[11]/a/svg[@class='submenu-lvl1__list-icon icon-svg']");
+    private final By SPORTS_AND_LEISURE_LISTITEM_ICON = By.xpath(".//div[@class = 'submenu-lvl1 submenu-lvl1--invisible submenu-lvl1--index']");
     private final By GAMING_CONSOLES_SHOW_ALL_LINK = By.xpath("(.//div[@class='submenu-lvl2__block-title submenu-lvl2__block-title--show-all']/a[@href='/c/spelu-konsoles-un-piederumi/a4h'])[2]");
 
     // amazon.de homepage
